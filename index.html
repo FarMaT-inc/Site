@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Farmat</title>
+ <style>
+  body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+  }
+
+  /* Menu bar styles */
+  .menu {
+   background-color: #000000;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+  }
+
+  .menu img {
+   height: 30px;
+   margin-right: 30px;
+  }
+
+  .menu a {
+   color: #fff;
+   margin: 0 10px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+   text-transform: uppercase;
+   cursor: pointer;
+   transition: all 0.3s ease;
+  }
+
+  .menu a:hover {
+   color: #ccc;
+  }
+
+  /* Main section styles */
+  .container {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 40px;
+  }
+
+  .text {
+   width: 33.33%;
+   padding-right: 40px;
+  }
+
+  .main img {
+    height: 1000px;
+    max-width: 1809px;
+  }
+
+  h1 {
+   font-size: 40px;
+   font-weight: bold;
+   margin-top: 0;
+   margin-bottom: 20px;
+  }
+
+  p {
+   font-size: 18px;
+   line-height: 1.5;
+   margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+   .container {
+    padding: 20px;
+   }
+
+   .text, .image {
+    width: 100%;
+    padding-right: 0;
+   }
+  }
+ </style>
+</head>
+<body>
+ <!-- Menu bar -->
+ <div class="menu">
+  <img src="icon.png" alt="Farmat">
+  <a href="#">About Us</a>
+  <a href="#">Projects</a>
+  <a href="https://github.com/FarMaT-inc?tab=repositories">GitHub</a>
+  <a href="#">Help</a>
+  <a href="#">Call back/Contact us</a>
+ </div>
+
+ <!-- Main section -->
+ <div class="container">
+  <div class="text">
+   <h1>Hello! This is the main page of our site.</h1>
+   <p>Unfortunately, I am not an expert in html and css. If you can improve and fix it, then thank you for your help. The site project is on GitHub.</p>
+  </div>
+  <div class="image">
+    <img src="Xcode.png" width="900" height="500" alt="Xcode">
+  </div>
+ </div>
+</body>
+</html>
